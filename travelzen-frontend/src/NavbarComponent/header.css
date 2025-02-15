@@ -1,0 +1,42 @@
+Logo and Brand Name
+.navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 50px; 
+    margin-right: 10px;
+  }
+  
+  .brand-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4da528; 
+  }
+  
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: #333; 
+    font-weight: 500;
+    margin: 0 10px;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #4da528; 
+  }
+  
+  /* Dropdown Menu */
+  .dropdown-menu {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown-item {
+    color: #333;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f8f9fa;
+    color: #4da528;
+  }
